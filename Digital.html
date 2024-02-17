@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="icon" href="../img/clock-regular.svg">
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(21,20,35);
+            color: white;
+
+        }
+        #h2{
+            position: absolute;
+            top: 70px;
+            left: 370px;
+            display: inline;
+            font-size: 100px;
+            letter-spacing: 4px;
+            
+        }
+        .hi{
+            
+            display: inline;
+            font-size: 57px;
+            position: relative;
+            left: 10px;
+            top: 100px;
+
+        
+        }
+        #time{
+    
+            height: 200px;
+            width: 400px;
+            position: absolute;
+            left: 353px;
+            top: 300px;
+            margin-left: 140px;
+            background-color: rgb(47,148,228);
+            box-shadow: 1px 2px 30px 3px rgb(47,148,228);
+            border-radius: 5px;
+
+        }
+        #uam{
+            font-size: xx-large;
+        }
+        #cal{
+            position: absolute;
+            width: 400px;
+            height: 50px;
+            text-align: center;
+            line-height: 110px;
+            font-size: x-large;
+            letter-spacing: 2px;
+
+        }
+        #drop{
+            margin-left: 1220px;
+            margin-top: 20px;
+            width: 80px;
+            height: 30px;
+            background-color:white;
+            border-radius: 5px;
+            border: none;
+        }
+        #clock{
+            display: inline;
+            margin-left: 1215px;
+            border-radius: 150px;
+            font-size: x-large;  
+
+        }
+        #clock:hover{
+            color: rgb(47,148,228);
+            transition: .5s;
+
+        }
+        #alerm{
+            margin-left: 1215px;
+            display: none;
+            
+        }
+        #sp{
+            margin-left: 1100px;
+            display: none;
+        }
+        #sp:hover{
+            color: rgb(47,148,228);
+            transition: .5s;
+
+        }
+        #off{
+            margin-left: 1100px;
+            display: none;
+        }
+        #off:hover{
+            color: rgb(47,148,228);
+            transition: .5s;
+
+        }
+
+
+
+
+    </style>
+</head>
+<body id="body">
+    <select name="#" id="drop">
+        <option value="12">12 hours</option>
+        <option value="24">24 hours</option>
+    </select>
+   <br><br>
+   
+    <div id="clock">
+        <i class="fa-solid fa-bell"></i>
+        Alarm
+    </div>
+    <br>
+    <br> 
+       <div id="alerm">
+           <input type="time" id="at">
+       </div>
+       <span id="off"><i class="fa-regular fa-bell"></i>' click to off</span>
+
+       <span id="sp">*Alarm not allowed in 24 hours</span>
+    
+    <h2 id="h2">Digital Clock</h2>
+    <div id="time">
+       
+        <div id="cal">
+            <span id="day"></span>
+            <span id="h3"></span>
+        </div>
+        <div id="main">
+            <div id="hr" class="hi">
+                <span id="uhr"></span> :
+            </div>
+               
+            <div id="min" class="hi">
+                <span id="umin"></span> :
+            </div>
+    
+            <div id="sic" class="hi">
+                <span id="usec"></span> 
+                
+            </div>
+    
+            <div id="am"class="hi" >
+                <span id="uam"></span>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="../js/digital.js"></script>
+    <script src="https://kit.fontawesome.com/d3a8403c73.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
