@@ -160,13 +160,15 @@ function time12(){
                 let au = document.createElement("audio");
                 au.id = "audioPlayer"; 
                 document.body.appendChild(au);
-                au.src = "../img/Kavala(PaglaSongs).mp3";
+                au.src = "ringtone-58761.mp3";
                 au.autoplay = true;
+                au.loop=ture;
                 let off=document.getElementById("off")
                 off.style.display="inline"
                 off.addEventListener("click",()=>{
                      au.pause();
                      au.autoplay=false;
+                     au.loop=false;
                      off.style.display="none"
                      
                 })
