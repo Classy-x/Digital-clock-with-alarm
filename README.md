@@ -12,7 +12,7 @@ This project is a simple digital clock with an alarm feature implemented using H
 
 ## Demo
 
-![Digital Clock with Alarm Demo](demo.gif)
+![Digital Clock with Alarm Demo](https://classy-x.github.io/Digital-clock-with-alarm/)
 
 ## Features
 
