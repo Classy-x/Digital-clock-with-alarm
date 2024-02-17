@@ -1,4 +1,4 @@
-# Digital Clock with Alarm Project
+# Digital Clock with Alarm
 
 This project is a simple digital clock with an alarm feature implemented using HTML, CSS, and JavaScript for the front end.
 
@@ -12,7 +12,7 @@ This project is a simple digital clock with an alarm feature implemented using H
 
 ## Demo
 
-![Digital Clock with Alarm Demo](https://classy-x.github.io/Digital-clock-with-alarm/)
+Check out the live demo [here](https://classy-x.github.io/Digital-clock-with-alarm/).
 
 ## Features
 
