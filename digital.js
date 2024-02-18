@@ -162,7 +162,7 @@ function time12(){
                 document.body.appendChild(au);
                 au.src = "ringtone-58761.mp3";
                 au.autoplay = true;
-                au.loop=ture;
+                au.loop=true;
                 let off=document.getElementById("off")
                 off.style.display="inline"
                 off.addEventListener("click",()=>{
