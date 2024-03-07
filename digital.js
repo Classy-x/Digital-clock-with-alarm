@@ -136,7 +136,7 @@ function time12(){
    }
 
       let d=document.getElementById("day")
-      let day=["Sunday","Monday","Tuesday","Webnesday","thersday","Friday","Saturday"]
+      let day=["Sunday","Monday","Tuesday","Webnesday","thursday","Friday","Saturday"]
        for(i=obj.getDay();i<day.length;i++){
            d.textContent=day[i]+",";
            break;
