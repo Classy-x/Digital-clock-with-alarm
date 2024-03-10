@@ -35,10 +35,13 @@
             background-color: rgb(47,148,228);
             box-shadow: 1px 2px 30px 3px rgb(47,148,228);
             border-radius: 5px;
-            -webkit-box-reflect: below 20px linear-gradient(to top,#0000,#0005);
+            
         }
         #uam{
             font-size: xx-large;
+        }
+        #time{
+            -webkit-box-reflect: below 20px linear-gradient(to top,#0000,#0005);
         }
         #cal{
             position: absolute;
