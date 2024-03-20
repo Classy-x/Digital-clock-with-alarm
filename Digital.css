@@ -3,6 +3,8 @@
             font-family: sans-serif;
             background-color: rgb(21,20,35);
             color: white;
+            overflow-x: hidden;
+            overflow-y: hidden;
 
         }
         #h2{
@@ -102,9 +104,11 @@
         @media only screen and (max-width: 410px) {
             #time{
              position: absolute;
-             margin-left: -347px;
+             margin-left: -340px;
              margin-top: 70px;
-             
+             width: 390;
+             overflow-x: hidden;
+             overflow-y: hidden;
             }
             
             #h2{
