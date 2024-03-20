@@ -92,12 +92,39 @@
         #off{
             margin-left: 1100px;
             display: none;
+            cursor: pointer;
         }
         #off:hover{
             color: rgb(47,148,228);
             transition: .5s;
 
         }
-
+        @media only screen and (max-width: 410px) {
+            #time{
+             position: absolute;
+             margin-left: -347px;
+             margin-top: 70px;
+             
+            }
+            #h2{
+             margin-left: -270px;
+             font-size: 70px;
+             margin-top: 120px;
+            }
+            #drop{
+             margin-left: 300px;
+            }
+            #clock{
+             margin-left: 290px;
+            }
+            #alerm{
+             margin-left: 290px;
+         
+            }
+            #off{
+             margin-left: 170px;
+            }
+         
+          }
 
 
